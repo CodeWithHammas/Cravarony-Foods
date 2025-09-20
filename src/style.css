@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+a{
+    font-family: Aloevera display;
+    font-weight: 500;
+}
+
+h5{
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+p{
+    font-family: Aloevera Display;
+}
+
+h2, h3{
+    font-family: Anton;
+}
+
+#blog-data p{
+    font-family: Anton;
+}
+
+#blog- data h5{
+    font-family: Arial;
+}
+
+#card h2{
+    font-family: Impact;
+}
+
+#food-rate-heading , p{
+   font-family: Aloevera Display;
+   font-weight: 700;
+}
+
+#rate-left , h5{
+  font-family: Impact;
+  font-weight: 200;
+}
+
+#rate-left , p{
+    font-family: Arial;
+}
+
+#footer-data ,h5{
+font-family: Amstagram;
+}
+
+#footer-data ,p{
+    font-family: Aloevera Display;
+    font-weight: 400;
+}

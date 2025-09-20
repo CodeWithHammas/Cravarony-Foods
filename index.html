@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="Images/Logo.png" />
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cravory</title>
+</head>
+
+<body>
+    <div class="flex justify-center items-center gap-6 md:gap-90">
+        <div id="left" class="hidden md:flex w-18 gap-10">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+        <div id="middle" class="justify-center">
+            <img src="Images/Logo.png" alt="" class="w-[92px] md:w-[180px] justify-center">
+        </div>
+        <div id="right" class="flex">
+            <form action="Search" class="border-solid-2-black">
+                <input type="search" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+        </div>
+    </div>
+    <div id="links" class="hidden md:flex justify-center gap-15 text-lg pt-5">
+        <a href="">HOME</a>
+        <a href="">ABOUT US</a>
+        <a href="">BLOG</a>
+        <a href="">CONTACT US</a>
+        <a href="">MENU</a>
+        <a href="">RESERVATIONS</a>
+    </div>
+    <div id="hero" class="pt-40 pl-15 relative h-[650px]">
+        <!-- Text container -->
+        <div id="her-data" class="relative z-10">
+            <h5 class="text-[40px] text-orange-500">FAST FOOD BURGERS</h5>
+            <h2 class="text-[100px] w-[700px] leading-tight text-white">Luxury Bites For Every Craving</h2>
+        </div>
+
+        <!-- Background image -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+            <img src="Images/Hero.jpg" alt="" class="w-full h-full object-cover">
+        </div>
+    </div>
+
+
+    <div id="about-us" class="flex justify-between items-center pt-10">
+        <div id="about-left" class="pl-15 ">
+            <h5 class="text-[40px] text-orange-500">ABOUT US</h5>
+            <h3 class="text-[70px] text-zinc-850">Crafted With Passion</h3>
+            <p class="w-[700px] text-[15px]">At Cravory, we're all about good food and great taste. Weather it's a
+                juicy burger, a cheesy pizza, or a heart pasta bowl, we make Every
+                meal with care and fresh ingeredients. Our goal is simple to serve
+                food that makes you happy and keeps you coming back for more.
+            </p>
+
+            <button
+                class="bg-orange-600 text-white pt-2 pb-2 pl-8 pr-8 rounded-[10px] text-[20px] bg-linear-to-r/srgb from-orange-400">Read
+                More</button>
+        </div>
+        <div id="about-right" class="pr-40">
+            <img src="Images/Card Main.jpg" alt="" class="w-[400px] rounded-[30px]">
+        </div>
+    </div>
+
+    <div id="blog" class="pt-10">
+        <div id="blog-data" class="text-center items-center">
+            <p class="text-orange-500 text-[40px]">THE MAGIC OF FLAVOUR</p>
+            <h3 class="text-[70px] text-zinc-850">Made to Be Craved</h3>
+            <h5 class="text-gray-800">From Juicy Chicken to Loaded burgers and Cheesy Burritos-Every Dish is made to
+                tempt
+                your taste buds <br>
+                and leave you wanting more
+            </h5>
+        </div>
+        <div id="blog-card" class="flex justify-between pt-10 pl-80 pr-80 gap-10">
+            <div id="card" class="text-center w-90">
+                <img src="Images/Card 1.jpg" alt="" class="w-[400px] rounded-[30px]">
+                <h2 class="text-[30px] pt-[16px]">Cheese Chicken Burrito</h2>
+                <p>Wrapped With Love-filled with grilled chicken,
+                    creamy cheese, and flovorful rice.
+                </p>
+            </div>
+            <div id="card" class="text-center w-90">
+                <img src="Images/Card 2.jpg" alt="" class="w-[400px] rounded-[30px]">
+                <h2 class="text-[30px] pt-[16px]">Tender Spiced Chicken</h2>
+                <p>Juicy, marinated chicken cooked to perfection
+                    with bold spice and rice flavor.
+                </p>
+            </div>
+            <div id="card" class="text-center w-90">
+                <img src="Images/Card 3.jpg" alt="" class="w-[400px] rounded-[30px]">
+                <h2 class="text-[30px] pt-[16px]">Loaded Cravory Burger</h2>
+                <p>Stacked With Fresh veggies, melted cheese, and
+                    a juice patty the ultimate indulgence.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="deal-card" class="flex justify-center pt-20 gap-10">
+        <img src="Images/Deal 1.jpg" alt="" class="w-[600px] rounded-2xl">
+        <img src="Images/Deal 2.jpg" alt="" class="w-[600px] rounded-2xl">
+    </div>
+
+    <div id="food-rate">
+        <div id="food-rate-heading" class="items-center text-center pt-[50px]">
+            <p class="text-[20px] text-orange-500">OUR SIGNATURE MENU</p>
+            <h2 class="text-[70px]">Cravory Price List</h2>
+        </div>
+
+        <div id="menu" class="flex justify-center gap-10 pt-[100px] items-center">
+            <div id="menu-left-side" class="">
+                <div id="rate-left" class="flex justify-between w-[500px] pt-[20px]">
+                    <h5 class="text-[25px]">Classic Beef Burger</h5>
+                    <p class="text-gray-800">$7.99</p>
+                </div>
+                <div id="food-word" class="pt-[10px]">
+                    <p class="text-gray-800">Juicy Grilled Beef With melted cheese</p>
+                </div>
+
+                <div id="rate-left" class="flex justify-between w-[500px] pt-[20px]">
+                    <h5 class="text-[25px]">Spicy Chicken Burger</h5>
+                    <p class="text-gray-800">$7.49</p>
+                </div>
+                <div id="food-word" class="pt-[10px]">
+                    <p class=" text-gray-800">Crispy Chicken with spicy mayo and lettuce</p>
+                </div>
+
+                <div id="rate-left" class="flex justify-between w-[500px] pt-[20px]">
+                    <h5 class="text-[25px]">Cheesy Fries</h5>
+                    <p class="text-gray-800">$3.99</p>
+                </div>
+                <div id="food-word" class="pt-[10px]">
+                    <p class="text-gray-800">Golden fries topped cheddar cheese</p>
+                </div>
+
+                <div id="rate-left" class="flex justify-between w-[500px] pt-[20px]">
+                    <h5 class="text-[25px]">Zinger Wrap</h5>
+                    <p class="text-gray-800">$6.99</p>
+                </div>
+                <div id="food-word" class="pt-[10px]">
+                    <p class=" text-gray-800">Crispy Chicken wrapped in soft tortilla</p>
+                </div>
+
+                <div id="rate-left" class="flex justify-between w-[500px] pt-[20px]">
+                    <h5 class="text-[25px]">Chicken Biryani Bowl</h5>
+                    <p class="text-gray-800">$8.49</p>
+                </div>
+                <div id="food-word" class="pt-[10px]">
+                    <p class=" text-gray-800">Atomic Rice with spiced chicken chunks</p>
+                </div>
+            </div>
+
+            <div id="menu-right-sie">
+                <div id="rate-left" class="flex justify-between w-[500px] pt-[20px]">
+                    <h5 class="text-[25px]">Burrito Blast</h5>
+                    <p class="text-gray-800">$7.99</p>
+                </div>
+                <div id="food-word" class="pt-[10px]">
+                    <p class="text-gray-800">Stuffed with chicken, beans, and creamy suace</p>
+                </div>
+
+                <div id="rate-left" class="flex justify-between w-[500px] pt-[20px]">
+                    <h5 class="text-[25px]">Loaded Pasta Bowl</h5>
+                    <p class="text-gray-800">$9.49</p>
+                </div>
+                <div id="food-word" class="pt-[10px]">
+                    <p class="text-gray-800">Pasta With Creamy white suace wit veggies</p>
+                </div>
+
+                <div id="rate-left" class="flex justify-between w-[500px] pt-[20px]">
+                    <h5 class="text-[25px]">Cravory Special Pizza</h5>
+                    <p class="text-gray-800">$12.99</p>
+                </div>
+                <div id="food-word" class="pt-[10px]">
+                    <p class="text-gray-800">Loadded With Cheese,Chicken, and veggies </p>
+                </div>
+
+                <div id="rate-left" class="flex justify-between w-[500px] pt-[20px]">
+                    <h5 class="text-[25px]">Chocolate Lava Cake</h5>
+                    <p class="text-gray-800">$6.99</p>
+                </div>
+                <div id="food-word" class="pt-[10px]">
+                    <p class=" text-gray-800">Warm Chocolate cake with molten center</p>
+                </div>
+
+                <div id="rate-left" class="flex justify-between w-[500px] pt-[20px]">
+                    <h5 class="text-[25px]">Mint Magarita (Dring) </h5>
+                    <p class="text-gray-800">$2.49</p>
+                </div>
+                <div id="food-word" class="pt-[10px]">
+                    <p class=" text-gray-800">Refericing mint cooler with lime twist</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+
+    <div id="contact" class="pt-40 pl-15 relative h-[600px] items-center mt-[100px]">
+        <!-- Text container -->
+        <div id="Contact-heading" class="relative z-10 gap-5 inline-block">
+            <h5 class="text-[70px] text-orange-500">Book Table Now</h5>
+            <input type="text" class="input w-[90%]" placeholder="Name" />
+            <input type="email" class="input w-[90%]" placeholder="Email" />
+            <input type="number" class="input validator w-[90%] h-[200px]" required placeholder="Message">
+            <button class="bg-amber-600 w-[90%] h-10 text-white">Send</button>
+
+        </div>
+
+        <!-- Background image -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+            <img src="Images/Contact-Image.jpg" alt="" class="w-full h-full object-cover blur-xs">
+        </div>
+    </div>
+
+    <div id="food-items">
+        <div id="food-items-heading">
+            <h3 class="text-[60px] text-center pt-10">Best Selling Dishes</h3>
+        </div>
+
+        <div id="food-item-card" class="flex items-center justify-between p-5">
+            <div id="food-containor" class="bg-yellow-50 w-[300px] rounded-[20px] ">
+                <img src="Images/Food-Item-1.png" alt="" class="drop-shadow-xl">
+                <p class="text-center text-[20px]">Filet-O-Fish</p>
+                <p id="star" class="text-center text-[15px]">⭐⭐⭐⭐⭐</p>
+                <p id="food-price" class="text-center">$10</p>
+                <button
+                    class="bg-amber-500 text-white items-center w-[300px] rounded-full px-[2px] py-[2px] cursor-pointer">Add
+                    to
+                    Cart</button>
+            </div>
+
+            <div id="food-containor" class="bg-yellow-50 w-[300px] rounded-[20px]">
+                <img src="Images/Food-Item-2.png" alt="" class="drop-shadow-xl">
+                <p class="text-center text-[20px]">Taco Supreme</p>
+                <p id="star" class="text-center text-[15px]">⭐⭐⭐⭐⭐</p>
+                <p id="food-price" class="text-center">$10</p>
+                <button
+                    class="bg-amber-500 text-white items-center w-[300px] rounded-full px-[2px] py-[2px] cursor-pointer">Add
+                    to
+                    Cart</button>
+            </div>
+
+            <div id="food-containor" class="bg-yellow-50 w-[300px] rounded-[20px]">
+                <img src="Images/Food-Item-3.png" alt="" class="drop-shadow-xl">
+                <p class="text-center text-[20px]">Burger</p>
+                <p id="star" class="text-center text-[15px]">⭐⭐⭐⭐⭐</p>
+                <p id="food-price" class="text-center">$10</p>
+                <button
+                    class="bg-amber-500 text-white items-center w-[300px] rounded-full px-[2px] py-[2px] cursor-pointer">Add
+                    to
+                    Cart</button>
+            </div>
+
+            <div id="food-containor" class="bg-yellow-50 w-[300px] rounded-[20px]">
+                <img src="Images/Food-Item-4.png" alt="" class="drop-shadow-xl">
+                <p class="text-center text-[20px]">Pizza</p>
+                <p id="star" class="text-center text-[15px]">⭐⭐⭐⭐⭐</p>
+                <p id="food-price" class="text-center">$10</p>
+                <button
+                    class="bg-amber-500 text-white items-center w-[300px] rounded-full px-[2px] py-[2px] cursor-pointer">Add
+                    to
+                    Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="blog-img" class="flex justify-center gap-5 pt-10">
+
+        <img src="Images/Blog-Img-1.jpg" alt="" class="w-[300px] rounded-[25px]">
+        <img src="Images/Blog-Img-2.jpg" alt="" class="w-[300px] rounded-[25px]">
+        <img src="Images/Blog-Img-3.jpg" alt="" class="w-[300px] rounded-[25px]">
+        <img src="Images/Blog-Img-4.jpg" alt="" class="w-[300px] rounded-[25px]">
+
+    </div>
+
+
+    <div id="footer" class="pt-[40px] pl-15 relative h-[650px]">
+        <!-- Text container -->
+        <div id="footer-data" class="relative z-10 text-center pt-10">
+            <h5 class="text-[40px] text-gray-800">Special Offer</h5>
+            <h2 class="text-[50px] leading-tight text-gray-900">Grab Our Special Food Deal</h2>
+            <p class="text-gray-800">Fuel Your Craving With Unforgettable flavors,</p>
+            <div class="pt-10 gap-10">
+                <button class="bg-orange-500 text-white w-[200px] rounded-[5px] p-[5px]">Order Now</button>
+                <button class="border-orange-500 text-orange-500 border-2 w-[200px] rounded-[5px] p-[5px]">Veiw Full Menu</button>
+            </div>
+        </div>
+
+        <!-- Background image -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+            <img src="Images/Footer-bg.jpeg" alt="" class="w-full h-[60%] object-cover">
+        </div>
+    </div>
+
+
+</body>
+
+</html>
